@@ -1,0 +1,18 @@
+{
+  "name": "lengthchecherbot",
+  "description": "Telegram Bot that checks message lenght",
+  "repository": "https://github.com/Kylmakalle/lengthcheckerbot",
+  "keywords": ["length", "bot", "telegram"],
+  "env": {
+    "TELEGRAM_TOKEN": {
+      "description": "Telegram bot API authentication token from https://t.me/BotFather",
+      "required": true
+    }
+  },
+"formation": {
+    "bot": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
